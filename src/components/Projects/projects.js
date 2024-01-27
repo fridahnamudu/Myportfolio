@@ -6,17 +6,18 @@ import '../Projects/projects.css'
 function projects() {
   return (
   <div className="projects">
-    <h1 className="projectsTitle">My Projects</h1>
+    <h2 className="projectsTitle">My Projects</h2>
     <div className="projectsList">
-      {projectsList.map((ProjectsItem, key)=> {
-        return (
+      {projectsList.map((Item, key)=> (
+        // return (
           <ProjectsItem 
           key={key}
-          image={ProjectsItem.Image}
-          name={ProjectsItem.name}
+          Image={Item.Image}
+          name={Item.name}
+
           />
-        )
-      })}
+        
+      ))}
   </div>
 </div>  )
 }

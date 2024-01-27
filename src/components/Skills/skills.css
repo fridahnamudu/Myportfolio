@@ -57,12 +57,16 @@
         font-size: 3vw;
     }
     .skillBarImg{
-        height: 2.2rem;
-        width: 2.25rem;
+        height: 3.2rem;
+        width: 4.25rem;
     }
     .skillBarText{
-        font-size: 5vw;
+        font-size: 3vw;
     }
+    .skillBarText>p{
+        font-size: 3vw;
+    }
+
 
     
 }

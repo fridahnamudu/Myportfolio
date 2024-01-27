@@ -2,7 +2,7 @@
     background-color: royalblue;
     height: 5rem;
     width: 100vw;
-    max-width: 75rem;
+    max-width: 80rem;
     margin: 0 auto;
     padding: 1rem 2rem;
     display: flex;
@@ -15,13 +15,17 @@
 .logo{
     object-fit: cover;
     height: 5rem;
-    width: 12rem;
+    width: 15rem;
 }
+/* .desktopMenu{
+    justify-content: space-between;
+} */
 .desktopMenuListItem{
     margin: 1rem;
     cursor: pointer;
 
 }
+
 .desktopMenuListItem:hover{
     color:gold;
     padding-bottom: 0.5rem;
@@ -40,4 +44,60 @@
     border: none;
     justify-content: space-evenly;
     padding: auto;
+}
+.active{
+    color: gold;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid gold;
+    
+}
+.mobMenu{
+    display: none;
+    /* width: 60px; */
+    color: gold;
+    font-weight: bold;
+    /* object-fit: cover; */
+    height: 1.8rem;
+    font-size: inherit;
+    cursor: pointer;
+    /* max-width: 40rem; */
+
+
+
+}
+.navMenu{
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    height: fit-content;
+    min-width: 15rem;
+    background:#3556bb;
+    border-radius: 1rem;
+
+
+}
+.listItem{
+    color: black;
+    padding: 0.5rem 3rem;
+    margin: 0.25rem;
+    background: royalblue;
+
+}
+
+@media screen  and (max-width:720px){
+    .mobMenu{
+        display: flex;
+    }
+    .desktopMenu{
+        display: none;
+    }
+    .desktopMenuBtn{
+        display: none;
+
+    }
+    
 }

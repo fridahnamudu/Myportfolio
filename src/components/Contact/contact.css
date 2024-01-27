@@ -1,0 +1,104 @@
+.contactForm1{
+    margin-top: 85px;
+}
+.contactForm1 .contactDesc{
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* margin: auto; */
+}
+.contactForm1 .contactPageTitle{
+    padding: 1rem;
+    font-size:50px;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* margin: auto; */
+}
+
+.contactForm1 form{
+    margin: auto;
+    padding: auto;
+    display: flex;
+    border: none;
+    text-decoration: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    max-width: 60rem;
+
+}
+
+.name, .email, .msg{
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem ;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color:white ;
+    border: none;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    background: #3556bb;
+
+}
+.submitbtn{
+    background: black;
+    color: gold;
+    border: none;
+    border-radius: 0.5rem;
+    margin: 2rem;
+    padding: 0.75rem 3.5rem;
+}
+.contactForm1 .links{
+    /* height: 5rem; */
+    width: 20vw;
+    font-size: inherit;
+    max-width: 40rem;
+    color: gold;
+    margin: 0 auto;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* .contactForm1 .links{
+    size: 50px;
+} */
+/* @media  screen and (max-width:320px) {
+    .contactForm1 .links{
+        width: 10vw;
+        max-width: 10rem;
+        margin-right: 100px;
+        
+    }
+    
+} */
+
+
+@media only screen and (max-width: 800px) {
+    
+    .contactForm1 .links{
+        width: 10vw;
+        max-width: 20rem;
+        text-align: center;
+        justify-content: center;
+        display: flex;        
+    }
+  }
+@media  screen and (max-width:480px) {
+    .contactForm1 .links{
+        width: 10vw;
+        max-width: 20rem;
+        text-align: center;
+        justify-content: center;
+        display: flex; 
+    }
+    
+}

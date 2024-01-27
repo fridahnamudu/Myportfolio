@@ -9,9 +9,9 @@
 }
 .bg{
     position: absolute;
-    top: -10rem;
+    top: -7rem;
     right: 0;
-    margin-right: -210px;
+    margin-right: -10px;
     z-index: -1;
     object-fit: cover;
     height: 100vh;
@@ -58,9 +58,10 @@
 @media screen and (max-width:840px){
     .bg {
         right: -10vw;
+        height: 90vh;
     }
     .introContent{
-        font-size: 10vw;
+        font-size: 2.5rem;
     }
     .hello{
         font-size: 4.5vw;
@@ -71,7 +72,12 @@
 
 @media screen and (max-width:480px){
     .bg {
-        right: -20vw;
+        right: -40vw;
+        height: 90vh;
+    }
+    .btn{
+        margin: auto;
+        top: 10;
     }
 }
 
