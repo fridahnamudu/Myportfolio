@@ -44,10 +44,10 @@
     background: gold;
     color: black;
     margin: 1rem 0;
-    padding: 0.75rem 2rem;
+    padding: 0.78rem 2rem;
     /* justify-content:; */
     border: none;
-    border-radius: 2rem;width: 10rem;
+    border-radius: 2rem;width: 13rem;
     display: flex;
     align-items: center;
     border: none;
@@ -55,6 +55,7 @@
     padding: auto;
     font-size: 15px;
 }
+
 @media screen and (max-width:840px){
     .bg {
         right: -10vw;

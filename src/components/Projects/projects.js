@@ -14,6 +14,8 @@ function projects() {
           key={key}
           Image={Item.Image}
           name={Item.name}
+          message={Item.message}
+          link={Item.link}
 
           />
         

@@ -35,10 +35,12 @@ function Contact() {
                 <button type='submit' value='Send' className="submitbtn" >Submit</button>
             </form>
                 <div className="links">
-                    <GitHubIcon style={{ fontSize: '50px' }} />
-                    <TwitterIcon style={{ fontSize: '50px' }}/>
-                    <LinkedInIcon style={{ fontSize: '50px' }}/>
-                    <EmailIcon style={{ fontSize: '50px' }}/>
+                    <a>
+                    <a href="https://github.com/fridahnamudu?tab=repositories" target='blank' rel='noopener noreferrer'><GitHubIcon style={{ fontSize: '50px' }} /> </a>
+                    <a href="" ><TwitterIcon style={{ fontSize: '50px' }}/> </a>
+                    <a href="https://www.linkedin.com/in/fridah-joy-namudu-758a98207/" target='blank' rel='noopener noreferrer'><LinkedInIcon style={{ fontSize: '50px' }}/> </a>
+                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target='blank' rel='noopener noreferrer'><EmailIcon style={{ fontSize: '50px' }}/></a>
+                    </a>
                 </div>
        
         

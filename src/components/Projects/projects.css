@@ -28,12 +28,57 @@
   .projectsItem  {
     border-radius: 15px;
     width: 300px;
-    height: 350px;
+    height: 400px;
     margin: 20px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
 
  
   } 
+  .projectsItem h1{
+    font-weight: 600;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 2 auto;
+    display: flex;
+  }
+  .projectsItem p{
+    font-weight: 300;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    margin-bottom: 0.5rem;
+
+  }
+  /* .projectsItem a{
+    font-weight: 300;
+    background-color: black;
+    color: gold;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+
+  } */
+  .projectsItem a button{
+    background: black;
+    color: gold;
+    border: none;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    margin: 2rem;
+    padding: 0.75rem 3.5rem;
+
+  }
+  .projectsItem:hover a button {
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+  }
+
 
   .projectsItem:hover {
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);

@@ -7,15 +7,15 @@ export default function skills() {
   return (
     <section id="skills">
       <span className="skillTitle">What I do </span>
-      <span className="skillDesc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio quia adipisci modi culpa autem officiis, doloremque assumenda aliquam recusandae. Facilis et at 
-        ea suscipit vel molestiae enim iste corrupti doloremque.</span>
+      <span className="skillDesc"> My love for design fuels my work. I  blend HTML, CSS, and JavaScript to create  intuitive and visually appealing websites.
+       Whether it's a sleek and modern corporate site or a vibrant and dynamic personal project, I bring ideas to life with an artistic touch.</span>
 
         <div className="skillBars">
           <div className="skillBar">
             <img src={UIDesign} alt="UI design" className="skillBarImg" />
             <div className="skillBarText">
               <h2>UI/UX Design</h2>
-              <p>This is a demo text</p>
+              <p> I make the user experience and user interface interesting to use and look at. Using Figma and Wix for my designs</p>
             </div>
           </div>
 
@@ -23,7 +23,7 @@ export default function skills() {
             <img src={WebsiteDesign} alt="Web design" className="skillBarImg" />
             <div className="skillBarText">
               <h2>Website Design</h2>
-              <p>Rhis is a demo text</p>
+              <p>I add a touch of artistry to my work using HTML,CSS,JavaScript , PHP and React</p>
             </div>
           </div>
 

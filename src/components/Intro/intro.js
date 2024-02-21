@@ -7,7 +7,19 @@ import styled from '@emotion/styled';
 import { Style } from '@mui/icons-material';
 import { Typewriter, Cursor } from 'react-simple-typewriter';
 
+const PDF_FILE_URL = 'http://localhost:3000/ResumeforFridahJoyNamudu.pdf'
+
 function intro() {
+  const downloadFileAtURL =(url) =>{
+    const fileName = url.split('/').pop()
+    const aTag = document.createElement('a')
+    aTag.href=url
+    aTag.setAttribute('download', fileName)
+    document.body.appendChild(aTag)
+    aTag.click();
+    aTag.remove();
+
+  }
   // const [text] = useTypewriter({
   //   words: ['Front-End developer', 'Student Engineer', 'Website designer'],
   //   loop: [],
@@ -26,9 +38,11 @@ function intro() {
             delaySpeed ={1000}
             
           /></span>
-            <p className="introPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />Perferendis a consectetur, voluptatum iure est dolorem quasi dolore placeat,<br/> ut nam molestias 
-            totam aspernatur neque esse praesentium ea, labore vero dolores?</p>
-            <Link><button className="btn"><WorkIcon/>Hire Me</button></Link>
+            <p className="introPara"> Equipped with a firm basis in engineering concepts and a drive for long-term solutions.<br/> 
+            Proven capacity to bridge the technological and engineering divides. <br/>
+            I am eager to provide programming experience to develop creative and meaningful initiatives.</p>
+             
+            <Link><button className="btn"  onClick={()=>{downloadFileAtURL(PDF_FILE_URL)}}><WorkIcon/>Download CV</button></Link>
             
 
         </div>
