@@ -1,6 +1,6 @@
 import React from 'react'
 import './intro.css'
-import bg from '../../assets/nam.png'
+import bg from '../../assets/newnamudu2.png'
 import {Link} from 'react-scroll'
 import WorkIcon from '@mui/icons-material/Work';
 import styled from '@emotion/styled';
