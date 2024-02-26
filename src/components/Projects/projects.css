@@ -9,6 +9,10 @@
   .projects .projectsTitle {
     font-size: 50px;
     margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 2 auto;
   }
   
   .projectsList {
@@ -67,9 +71,12 @@
     background: black;
     color: gold;
     border: none;
-    margin-bottom: 1rem;
+    /* margin-bottom: 0px; */
+    margin-top: 10px;
     border-radius: 0.5rem;
-    margin: 2rem;
+    /* margin: 2rem; */
+    margin-left: 3rem;
+    margin-right: 3rem;
     padding: 0.75rem 3.5rem;
 
   }
@@ -107,14 +114,18 @@
   @media only screen and (max-width: 1300px) {
     .projectsList {
       grid-template-columns: 1fr 1fr;
+      /* margin-right: 100px; */
     }
+   
+   
   }
   
   @media only screen and (max-width: 800px) {
     .projectsList {
-      grid-template-columns: 1fr;
-      margin-right: 70px;
+      grid-template-columns: 1fr 1fr;
+      margin-right:210px;
     }
+    
     .projects .projectsTitle {
       font-size: 40px;
     }
