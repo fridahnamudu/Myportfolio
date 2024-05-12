@@ -19,7 +19,7 @@ export const projectsList = [
         name: "Wikipedia",
         Image: Wikipedia,
         message: 'A website  I designed using html and css (bootstrap) showcasing the Wikipedia landing page.',
-        link: ""
+        link: "https://fridahnamudu.github.io/wikipedia/"
 
     },
     {

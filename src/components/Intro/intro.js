@@ -3,27 +3,24 @@ import './intro.css'
 import bg from '../../assets/newnamudu.png'
 import {Link} from 'react-scroll'
 import WorkIcon from '@mui/icons-material/Work';
-import styled from '@emotion/styled';
-import { Style } from '@mui/icons-material';
+// import styled from '@emotion/styled';
+// import { Style } from '@mui/icons-material';
 import { Typewriter, Cursor } from 'react-simple-typewriter';
-
-const PDF_FILE_URL = 'http://localhost:3000/ResumeforFridahJoyNamudu.pdf'
+import ResumePdf from '../../assets/ResumeforFridahJoyNamudu.pdf'
 
 function intro() {
-  const downloadFileAtURL =(url) =>{
-    const fileName = url.split('/').pop()
-    const aTag = document.createElement('a')
-    aTag.href=url
-    aTag.setAttribute('download', fileName)
-    document.body.appendChild(aTag)
-    aTag.click();
-    aTag.remove();
 
-  }
-  // const [text] = useTypewriter({
-  //   words: ['Front-End developer', 'Student Engineer', 'Website designer'],
-  //   loop: [],
-  // });
+  const handleDownload = () => {
+    const link = document.createElement('a');
+    link.download = 'ResumeForFridahJoyNamudu';
+
+    link.href = ResumePdf;
+
+    link.click();
+  };
+
+  
+
   return (
     <section id="intro">
         <div className="introContent">
@@ -41,8 +38,11 @@ function intro() {
             <p className="introPara"> Equipped with a firm basis in engineering concepts and a drive for long-term solutions.<br/> 
             Proven capacity to bridge the technological and engineering divides. <br/>
             I am eager to provide programming experience to develop creative and meaningful initiatives.</p>
+
              
-            <Link><button className="btn"  onClick={()=>{downloadFileAtURL(PDF_FILE_URL)}}><WorkIcon/>Download CV</button></Link>
+            <Link><button onClick={handleDownload} className="btn"><WorkIcon/>Download CV</button></Link>
+            
+
             
 
         </div>
