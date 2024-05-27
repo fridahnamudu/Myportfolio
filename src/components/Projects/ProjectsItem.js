@@ -8,7 +8,7 @@ function ProjectsItem({Image, name, message, link }) {
       <img src={Image} />
       <h1>{name}</h1>
       <p>{message}</p>
-      <a href={link} target='blank' rel='noopener noreferrer'> <button>View peoject</button></a>
+      <a href={link} target='blank' rel='noopener noreferrer'> <button>View project</button></a>
       
 
       
