@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Myportfolio/static/css/main.779120c5.css",
-    "main.js": "/Myportfolio/static/js/main.f8580ada.js",
+    "main.css": "/Myportfolio/static/css/main.7b3a55e3.css",
+    "main.js": "/Myportfolio/static/js/main.c4d7cf80.js",
     "static/media/newnamudu.png": "/Myportfolio/static/media/newnamudu.aceaf956a562452fed0c.png",
     "static/media/wikipedia2.png": "/Myportfolio/static/media/wikipedia2.8ee14a5860937d272c3b.png",
     "static/media/Aiesec.png": "/Myportfolio/static/media/Aiesec.f40e129c5ea47f4b5735.png",
@@ -9,13 +9,14 @@
     "static/media/ebesa.jpg": "/Myportfolio/static/media/ebesa.3c62f9efd4beefd08fe9.jpg",
     "static/media/logo.png": "/Myportfolio/static/media/logo.5c88ec83ed175468a416.png",
     "static/media/klabugo.jpg": "/Myportfolio/static/media/klabugo.deecd4475bae0fbcbab7.jpg",
+    "static/media/vitumpya.png": "/Myportfolio/static/media/vitumpya.64ec08f46fe43dedfa24.png",
     "static/media/UIdesign.jpeg": "/Myportfolio/static/media/UIdesign.54d6f6a978bf8ce25db5.jpeg",
     "index.html": "/Myportfolio/index.html",
-    "main.779120c5.css.map": "/Myportfolio/static/css/main.779120c5.css.map",
-    "main.f8580ada.js.map": "/Myportfolio/static/js/main.f8580ada.js.map"
+    "main.7b3a55e3.css.map": "/Myportfolio/static/css/main.7b3a55e3.css.map",
+    "main.c4d7cf80.js.map": "/Myportfolio/static/js/main.c4d7cf80.js.map"
   },
   "entrypoints": [
-    "static/css/main.779120c5.css",
-    "static/js/main.f8580ada.js"
+    "static/css/main.7b3a55e3.css",
+    "static/js/main.c4d7cf80.js"
   ]
 }
