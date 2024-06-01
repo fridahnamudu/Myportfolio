@@ -16,10 +16,10 @@
   }
   
   .projectsList {
-    width: 70vw;
+    width: 80vw;
     height: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
     object-fit: cover;
     place-items: center;
     margin-top: 50px;
