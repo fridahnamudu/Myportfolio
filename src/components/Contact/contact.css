@@ -66,11 +66,9 @@
     padding: 1rem 2rem;
     display: flex;
     align-items: center;
-    justify-content:space-evenly;
+    justify-content: center;
 }
-/* .contactForm1 .links{
-    size: 50px;
-} */
+
 /* @media  screen and (max-width:320px) {
     .contactForm1 .links{
         width: 10vw;

@@ -6,13 +6,12 @@ import WorkIcon from '@mui/icons-material/Work';
 // import styled from '@emotion/styled';
 // import { Style } from '@mui/icons-material';
 import { Typewriter, Cursor } from 'react-simple-typewriter';
-import ResumePdf from '../../assets/ResumeforFridahJoyNamudu.pdf'
-
+import ResumePdf from '../../assets/ResumeForFridahJoyNamudu2025.pdf'
 function intro() {
 
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.download = 'ResumeForFridahJoyNamudu';
+    link.download = 'ResumeForFridahJoyNamudu_2025.pdf';
 
     link.href = ResumePdf;
 
@@ -25,7 +24,7 @@ function intro() {
     <section id="intro">
         <div className="introContent">
             <span className="hello">Hello,</span>
-            <span className="introText">I'm <span className="introName">Namudu</span><br /> <Typewriter words={['Front-End developer', 'Student Engineer', 'Website designer']}
+            <span className="introText">I'm <span className="introName">Fridah Joy Namudu</span><br /> <Typewriter words={['Full Stack Developer', 'Graduate Engineer', 'UI/UX Designer']}
             loop={4}
             typeSpeed={70}/>
             <Cursor

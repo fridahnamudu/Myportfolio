@@ -18,9 +18,14 @@ function projects() {
           link={Item.link}
 
           />
+          
         
       ))}
+    
   </div>
+  <div className='proj'>
+        <p>Kindly visit my </p> <a href="https://github.com/fridahnamudu?tab=repositories" target='blank' rel='noopener noreferrer'>   Github </a> <p> to view more projects</p>
+      </div>
 </div>  )
 }
 

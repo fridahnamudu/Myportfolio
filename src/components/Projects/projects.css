@@ -26,6 +26,15 @@
     margin-bottom: 60px;
 
   }
+  .projects .proj{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  .projects .proj a{
+    color: whitesmoke;
+  }
   
   /* PROJECTS ITEM STYLING */
   
